@@ -1,5 +1,5 @@
 .jumbotron-billboard .img {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     opacity: 0.1;
     color: #fff;
     background: #000 url("../img/namethesefruits.jPG") center center;
@@ -12,10 +12,11 @@
     z-index:1;
 }
 .jumbotron {position:relative;padding:50px;}
-.jumbotron .container {z-index:2;
-    position:relative;
+
+.jumbotron-container {
     z-index:2;
+    position:relative;
 }
-#fruit-name {
-    color: blue;
+.fruit-name {
+    color: red;
 }
